@@ -36,6 +36,18 @@ body.dark-theme {
   color: #fefefe;
 }
 
+.dark-theme .dark-theme-text-creamy {
+  color: #f2f2f2;
+}
+
+.dark-theme .dark-theme-text-yellow {
+  color: #fee440;
+}
+
+.dark-theme .dark-theme-text-dark-grey {
+  color: #484848;
+}
+
 .dark-theme .header__nav a {
   color: #fefefe;
 }
@@ -166,4 +178,24 @@ body.dark-theme {
 .footer-logo {
   display: block;
   margin-bottom: 26px;
+}
+
+.footer__contacts {
+  text-align: right;
+}
+
+.footer__phone {
+  margin: 12px 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fefefe;
 }

@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../../assets/fonts/Gilroy-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 .increase {
   padding: 65px 36px 60px;
 }

@@ -1,0 +1,296 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../../assets/fonts/Gilroy-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-image: url("img/development-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.header {
+  padding: 52px 36px 87px;
+}
+
+.call-btn {
+  background: #fefefe;
+  border-color: #fefefe;
+  color: #000;
+}
+
+.toggle {
+  background: #fefefe;
+}
+
+.development {
+  padding: 0 36px 249px 36px;
+  font-size: 48px;
+  position: relative;
+}
+
+.development__btn {
+  border: none;
+  outline: none;
+  background: #fde43e;
+  border-radius: 40px;
+  margin-top: 46px;
+  padding: 24px 0;
+  width: 45%;
+  font-size: 16px;
+  font-family: "proxima-nova-extra-wide", sans-serif;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.development__btn:hover {
+  opacity: 0.7;
+}
+
+.development__img {
+  position: absolute;
+  right: 0;
+  top: -35px;
+  width: 45%;
+}
+
+.clients {
+  padding: 58px 36px 84px;
+}
+
+.icon-marquee {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.icon-track {
+  display: flex;
+  gap: 40px;
+  will-change: transform;
+}
+
+.icon-track img {
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.subheader {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+}
+
+.subheader__icon {
+  margin-right: 12px;
+}
+
+.statistics {
+  padding: 63px 36px 158px;
+}
+
+.statistics__block {
+  margin-top: 125px;
+  position: relative;
+}
+
+.statistics__block img {
+  margin-right: 40px;
+  width: 25vw;
+  z-index: 10;
+}
+
+.statistics__text {
+  font-size: 48px;
+  z-index: 10;
+}
+
+.statistics__grey {
+  font-size: 300px;
+  color: #acacac;
+  position: absolute;
+  left: calc(25vw - 7%);
+}
+
+.statistics__subtext {
+  font-size: 48px;
+  margin-top: 114px;
+}
+
+.statistics__subtext__grey {
+  font-size: 300px;
+  color: #acacac;
+  line-height: 240px;
+}
+
+.solution {
+  padding: 64px 36px 153px;
+}
+
+.solution__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 60px;
+}
+
+.solution__card {
+  position: relative;
+  padding: 36px;
+  height: 330px;
+  font-size: 32px;
+  background: #fefefe;
+  border-radius: 40px;
+}
+
+.solution__card img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+}
+
+.functions {
+  padding: 63px 36px 186px;
+}
+
+.functions__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 30px;
+  margin-top: 103px;
+}
+
+.functions__card {
+  font-size: 32px;
+  padding-bottom: 22px;
+  border-bottom: 2px solid #484848;
+  display: flex;
+  align-items: start;
+  color: #1a1a1a;
+  font-size: 20px;
+}
+
+.functions__card img {
+  margin-right: 22px;
+  width: 40px;
+}
+
+.functions__card__grey {
+  font-size: 24px;
+  color: #666666;
+  margin-bottom: 8px;
+}
+
+.cost {
+  padding: 84px 36px 97px;
+}
+
+.cost__text {
+  font-family: "Gilroy", sans-serif;
+  font-size: 36px;
+  margin: 42px 0 61px;
+}
+
+.cost__form-holder {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+}
+
+.cost__form-holder img {
+  width: 100%;
+}
+
+.cost__form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.cost__form input,
+.cost__form textarea {
+  font-family: "Gilroy", sans-serif;
+  border: none;
+  outline: none;
+  padding: 24px;
+  font-size: 20px;
+  border-radius: 40px;
+  color: #969696;
+  background: #fefefe;
+  margin-bottom: 16px;
+}
+
+.cost__form input::placeholder,
+.cost__form textarea::placeholder {
+  color: #969696;
+}
+
+.cost__form textarea {
+  margin-bottom: 61px;
+}
+
+.rules {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox input {
+  display: none;
+}
+
+.checkmark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background-color: #fefefe;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.checkmark__svg {
+  width: 50%;
+  height: 50%;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.checkbox input:checked + .checkmark .checkmark__svg {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.rules__text {
+  margin-left: 13px;
+  color: #969696;
+  font-family: "Gilroy", sans-serif;
+  font-size: 16px;
+}
+
+.rules__yellow {
+  color: #6b601b;
+  cursor: pointer;
+}
+
+.cost__form button {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 28px 0;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 20px;
+  cursor: pointer;
+  background: #fde43e;
+  font-family: "proxima-nova-extra-wide", sans-serif;
+  margin-top: 18px;
+}
