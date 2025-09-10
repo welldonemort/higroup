@@ -13,6 +13,7 @@ html,
 body {
   font-family: "proxima-nova-extra-wide", sans-serif;
   background: #fefefe;
+  color: #1a1a1a;
 }
 
 * a {
@@ -54,6 +55,14 @@ body.dark-theme {
 
 .dark-theme .footer svg {
   fill: #fefefe;
+}
+
+.dark-theme .block-white {
+  background: #f2f2f2;
+}
+
+.dark-theme .text-black {
+  color: #1a1a1a;
 }
 
 .header {

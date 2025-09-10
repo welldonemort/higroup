@@ -1,0 +1,322 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../../assets/fonts/Gilroy-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy Semibold";
+  src: url("../../assets/fonts/Gilroy-Semibold.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy Bold";
+  src: url("../../assets/fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+.header {
+  padding: 52px 36px 87px;
+}
+
+.call-btn {
+  background: #fee440;
+  border-color: #fee440;
+  color: #000;
+}
+
+.call-btn:hover {
+  opacity: 0.7;
+}
+
+.toggle {
+  background: #f5f5f5;
+}
+
+.bitrix {
+  padding: 27px 36px 7px;
+}
+
+.bitrix-holder {
+  background: #1a1a1a;
+  border-radius: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fefefe;
+  padding-top: 45px;
+}
+
+.bitrix__subtext {
+  font-family: "Gilroy Bold", sans-serif;
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.bitrix__title {
+  font-size: 96px;
+  margin-bottom: 16px;
+}
+
+.bitrix__cards {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.bitrix__card {
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 0;
+}
+
+.bitrix__btn {
+  outline: none;
+  border: none;
+  margin: 48px 0 19px;
+  font-size: 20px;
+  background: #fee440;
+  padding: 21px 0;
+  width: 40%;
+  border-radius: 10px;
+  font-family: "proxima-nova-extra-wide", sans-serif;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.bitrix__btn:hover {
+  opacity: 0.7;
+}
+
+.bitrix-holder img {
+  width: 50%;
+}
+
+.clients {
+  padding: 22px 36px 21px;
+}
+
+.clients-holder {
+  width: 100%;
+  background: #fee440;
+  border-radius: 40px;
+  padding: 45px 0 122px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clients__subtext {
+  font-family: "Gilroy Bold", sans-serif;
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.clients__title {
+  font-size: 84px;
+}
+
+.icon-marquee {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 48px;
+}
+
+.icon-track {
+  display: flex;
+  gap: 40px;
+  will-change: transform;
+}
+
+.icon-track img {
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.real-time {
+  padding: 89px 36px 67px;
+  text-align: center;
+  font-size: 84px;
+}
+
+.real-time__subtext {
+  font-family: "Gilroy Bold", sans-serif;
+  font-size: 20px;
+}
+
+.real-time__holder {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 42px;
+}
+
+.real-time__left {
+  background: #fee440;
+  border-radius: 40px;
+  position: relative;
+}
+
+.real-time__img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 70%;
+  transform: translateX(-50%);
+}
+
+.real-time__img-2 {
+  width: 40%;
+}
+
+.real-time__right {
+  height: 375px;
+  background: #f2f2f2;
+  border-radius: 40px;
+  padding: 42px;
+  text-align: left;
+}
+
+.real-time__title {
+  font-size: 38px;
+  margin-bottom: 8px;
+}
+
+.real-time__text {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.profits {
+  padding: 38px 36px 149px;
+  color: #fefefe;
+  text-transform: uppercase;
+}
+
+.profits-holder {
+  border-radius: 40px;
+  background: #1a1a1a;
+  text-align: center;
+  padding: 45px 116px 150px;
+}
+
+.profits__subtext {
+  font-size: 20px;
+  font-family: "Gilroy Bold", sans-serif;
+}
+
+.profits__title {
+  font-size: 84px;
+  margin-bottom: 64px;
+}
+
+.profits__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px;
+}
+
+.profit__card__text {
+  margin-top: 8px;
+  font-size: 32px;
+}
+
+.profit__card__img-holder {
+  margin-bottom: 32px;
+  background: #a2f5ac;
+  border-radius: 40px;
+  padding: 105px 89px;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profit__card__img-holder img {
+  width: 100%;
+}
+
+.profit__card-red {
+  background: #f99292;
+}
+.profit__card-grey {
+  background: #e6e6e6;
+}
+.profit__card-yellow {
+  background: #fff3a7;
+}
+
+.cost {
+  padding: 45px 36px 133px;
+  text-align: center;
+}
+
+.cost__subtext {
+  font-size: 20px;
+  font-family: "Gilroy Bold", sans-serif;
+}
+
+.cost__title {
+  font-size: 84px;
+}
+
+.cost__block {
+  position: relative;
+  padding: 58px;
+  background: #fee440;
+  margin-top: 42px;
+  border-radius: 40px;
+  text-align: left;
+}
+
+.cost__block img {
+  position: absolute;
+  width: 60%;
+  bottom: 0;
+  right: 60px;
+}
+
+.cost__block__title {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.cost__black-block {
+  width: fit-content;
+  padding: 18px 42px;
+  border-radius: 40px;
+  background: #1a1a1a;
+  margin-bottom: 279px;
+  color: #fefefe;
+}
+
+.cost__price {
+  margin-bottom: 15px;
+  font-size: 40px;
+  text-transform: lowercase;
+}
+
+.cost__submit-btn {
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  padding: 21px 82px;
+  background: #fefefe;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-family: "proxima-nova-extra-wide", sans-serif;
+}
+
+.cost__submit-btn:hover {
+  opacity: 0.7;
+}
