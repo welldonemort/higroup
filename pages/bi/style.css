@@ -8,14 +8,14 @@
 @font-face {
   font-family: "Gilroy Semibold";
   src: url("../../assets/fonts/Gilroy-Semibold.ttf") format("truetype");
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Gilroy Bold";
   src: url("../../assets/fonts/Gilroy-Bold.ttf") format("truetype");
-  font-weight: 600;
+  font-weight: 700;
   font-style: normal;
 }
 
