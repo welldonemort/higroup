@@ -6,6 +6,13 @@
 }
 
 @font-face {
+  font-family: "Gilroy Medium";
+  src: url("../../assets/fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Gilroy Semibold";
   src: url("../../assets/fonts/Gilroy-Semibold.ttf") format("truetype");
   font-weight: 600;
@@ -87,7 +94,7 @@ body {
   background: #f5f5f5;
   position: relative;
   overflow: hidden;
-  font-family: "Gilroy", sans-serif;
+  font-family: "Gilroy Medium", sans-serif;
   font-size: 16px;
   height: 370px;
   transition: all 0.5s;
