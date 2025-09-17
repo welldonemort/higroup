@@ -199,6 +199,7 @@ body.dark-theme {
   align-items: center;
   justify-content: space-between;
   padding: 42px 36px 111px;
+  font-family: "Gilroy Semibold", sans-serif;
 }
 
 .footer .social-item {
@@ -251,4 +252,53 @@ body.dark-theme {
 
 .mb-33 {
   margin-bottom: 33px;
+}
+
+.footer__contacts-mobile {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .header .call-btn,
+  .header .header__nav {
+    display: none;
+  }
+
+  .header {
+    padding: 30px 20px;
+  }
+
+  .footer {
+    padding: 5px 10px 39px 10px;
+  }
+
+  .footer__contacts {
+    display: none;
+  }
+
+  .footer__contacts-mobile {
+    display: block;
+    margin-top: 23px;
+    font-size: 12px;
+  }
+
+  .footer-logo {
+    margin-bottom: 23px;
+  }
+
+  .social-item {
+    font-size: 12px;
+  }
+
+  .social-item:not(:last-child) {
+    margin-bottom: 2px;
+  }
+
+  .footer__phone {
+    margin: 5px 0;
+  }
+
+  .footer .qr {
+    width: 35%;
+  }
 }
