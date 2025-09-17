@@ -33,7 +33,7 @@ body {
 
 * a {
   text-decoration: none;
-  color: #000;
+  color: #1a1a1a;
   font-family: "proxima-nova-extra-wide", sans-serif;
   transition: all 0.5s;
 }
@@ -60,7 +60,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 19px 50px;
-  border: 1px solid #000;
+  border: 1px solid #1a1a1a;
   border-radius: 20px;
 }
 

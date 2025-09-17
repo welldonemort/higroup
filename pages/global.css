@@ -1,3 +1,9 @@
+body {
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 @font-face {
   font-family: "Gilroy";
   src: url("../../assets/fonts/Gilroy-Regular.ttf") format("truetype");
@@ -32,7 +38,7 @@ body {
 
 * a {
   text-decoration: none;
-  color: #000;
+  color: #1a1a1a;
   font-family: "proxima-nova-extra-wide", sans-serif;
   transition: all 0.5s;
 }
@@ -44,11 +50,15 @@ body {
 }
 
 body.dark-theme {
-  background: #000;
+  background: #1a1a1a;
 }
 
 .dark-theme .dark-theme-text {
   color: #fefefe;
+}
+
+.dark-theme .dark-theme-text-light-white {
+  color: #fbfbfb;
 }
 
 .dark-theme .dark-theme-text-creamy {
@@ -61,6 +71,18 @@ body.dark-theme {
 
 .dark-theme .dark-theme-text-dark-grey {
   color: #484848;
+}
+
+.dark-theme .dark-theme-text-grey {
+  color: #acacac;
+}
+
+.dark-theme .dark-theme-text-black {
+  color: #1a1a1a;
+}
+
+.dark-theme .dark-theme-text-light-yellow {
+  color: #fff3a7;
 }
 
 .dark-theme .header__nav a {
@@ -151,7 +173,7 @@ body.dark-theme {
 
 .nightBtn {
   background: #fde43e;
-  color: #000;
+  color: #1a1a1a;
 }
 
 .call-btn {
@@ -159,7 +181,7 @@ body.dark-theme {
   justify-content: space-between;
   align-items: center;
   padding: 19px 50px;
-  border: 1px solid #000;
+  border: 1px solid #1a1a1a;
   border-radius: 40px;
 }
 
