@@ -46,6 +46,8 @@
 }
 
 .gpt__title {
+  position: relative;
+  z-index: 10;
   font-size: 36px;
   margin-bottom: 12px;
 }
@@ -502,4 +504,296 @@
   box-shadow: inset 0 0 25px rgba(254, 254, 254, 0.08),
     inset 0 0 40px rgba(0, 0, 0, 0.8);
   border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo-content-mobile,
+.profits-img-mobile,
+.profits-img-mobile__dark {
+  display: none;
+}
+
+.report-block-img,
+.report-block-img-mobile {
+  width: 27px;
+}
+
+.report-block-img-white,
+.dark-theme .report-block-img,
+.text-item__text-mobile {
+  display: none;
+}
+
+.dark-theme .report-block-img-white {
+  display: block;
+}
+
+@media (max-width: 1000px) {
+  .text-item__text-mobile {
+    display: block;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .dark-theme .profits-img,
+  .test-btn-text {
+    display: none;
+  }
+
+  .service__btn-yellow,
+  .service__btn {
+    padding: 18px 0;
+    font-size: 16px;
+  }
+
+  .profits-img-mobile {
+    display: block;
+  }
+
+  .dark-theme .profits-img-mobile__dark {
+    display: block;
+  }
+
+  .gpt {
+    padding: 0 10px 53px;
+  }
+
+  .gpt__title {
+    font-size: 20px;
+  }
+
+  .gpt__text {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  .gpt__img {
+    position: static;
+    width: 100%;
+  }
+
+  .gpt__btn {
+    margin: 0;
+  }
+
+  .gpt__btn-transparent,
+  .gpt__btn {
+    width: 100%;
+    padding: 18px 0;
+    text-align: center;
+  }
+
+  .gpt__buttons {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .logo-content {
+    display: none;
+  }
+
+  .logo-content-mobile {
+    display: block;
+    width: 50%;
+  }
+
+  .statistics {
+    padding: 19px 10px 99px;
+  }
+
+  .statistics__block img {
+    margin: 0 0 140px 0;
+  }
+
+  .statistics__block {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .statistics__text {
+    font-size: 36px;
+    width: 50%;
+  }
+
+  .statistics__grey {
+    left: 50%;
+    transform: translateX(-50%);
+    top: -6%;
+  }
+
+  .statistics__subtext {
+    margin-top: 48px;
+    font-size: 32px;
+  }
+
+  .statistics__subtext__grey {
+    font-size: 116px;
+    margin: 0;
+    line-height: 100%;
+  }
+
+  .profits {
+    padding: 34px 10px 104px;
+    grid-template-columns: 1fr;
+    overflow: hidden;
+  }
+
+  .profits__title {
+    font-size: 20px;
+  }
+
+  .profits__text {
+    margin: 12px 0 24px;
+    font-size: 14px;
+  }
+
+  .profits img {
+    width: 150%;
+  }
+
+  .integrations {
+    padding: 42px 10px 62px;
+  }
+
+  .integrations__title {
+    font-size: 24px;
+    margin-bottom: 14px;
+  }
+
+  .integrations__holder {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .integrations__left {
+    gap: 14px;
+  }
+
+  .integrations__block {
+    padding: 42px 35px 95px 24px;
+  }
+
+  .integrations__text {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+
+  .integrations__right {
+    gap: 14px;
+  }
+
+  .integrations__right img {
+    width: 100%;
+  }
+
+  .reviews {
+    padding: 32px 0 32px 10px;
+    font-size: 32px;
+  }
+
+  .reviews__title {
+    margin-bottom: 24px;
+  }
+
+  .reviews__holder {
+    margin-top: 14px;
+  }
+
+  .review {
+    height: 273px;
+    flex: 0 0 182px;
+  }
+
+  .review__text {
+    left: 13px;
+    top: 14px;
+  }
+
+  .review__play img {
+    width: 40%;
+  }
+
+  .report {
+    padding: 42px 10px 83px;
+    overflow: hidden;
+  }
+
+  .report__title {
+    font-size: 24px;
+    margin-bottom: 14px;
+  }
+
+  .report__blocks {
+    margin: 14px 0 24px;
+    flex-direction: column;
+  }
+
+  .report img {
+    margin: 0;
+  }
+
+  .report__blocks .glass-block {
+    justify-content: center;
+    padding: 18px 30px;
+  }
+
+  .report__cards {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 51px;
+  }
+
+  .report__card__title {
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+
+  .report__card__text {
+    font-size: 14px;
+  }
+
+  .report > img {
+    width: 150%;
+  }
+
+  .service {
+    padding: 42px 10px 106px;
+  }
+
+  .service__title {
+    font-size: 32px;
+  }
+
+  .service__blocks {
+    grid-template-columns: 1fr;
+  }
+
+  .service__block,
+  .service__block-yellow {
+    padding: 42px 12px 12px;
+  }
+
+  .service__header {
+    flex-direction: column;
+  }
+
+  .header__title {
+    margin: 14px 0 0 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .service__text-item {
+    flex-direction: column;
+  }
+
+  .text-item__text {
+    font-size: 16px;
+    margin: 8px 0 0 0;
+  }
+
+  .service__text {
+    margin-bottom: 52px;
+  }
 }
