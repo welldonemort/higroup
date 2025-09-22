@@ -185,14 +185,6 @@
   padding: 58px 36px 86px;
 }
 
-/* AaAAAAAФФФФФФФAAAAA */
-/* AaAAAAAФФФФФФФAAAAA */
-/* AaAAAAAФФФФФФФAAAAA */
-/* AaAAAAAФФФФФФФAAAAA */
-/* AaAAAAAФФФФФФФAAAAA */
-/* AaAAAAAФФФФФФФAAAAA */
-/* AaAAAAAФФФФФФФAAAAA */
-
 .statistics {
   padding: 141px 36px 83px;
   display: flex;
@@ -786,4 +778,439 @@ tr {
 
 .dark-theme .ai-btn-outline-dark {
   display: block;
+}
+
+.ai__buttons-mobile {
+  display: none;
+}
+
+.tariffs__table-mobile {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .ai {
+    padding: 0 10px;
+    flex-direction: column;
+  }
+
+  .ai__bg {
+    position: static;
+    transform: none;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .ai__title {
+    font-size: 64px;
+    line-height: 100%;
+  }
+
+  .ai__text {
+    font-size: 15px;
+    margin-bottom: 24px;
+  }
+
+  .ai__right {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .ai__right > .ai__right-block {
+    flex: 1 1 45%;
+  }
+
+  .ai__right-block:last-child {
+    flex: 1 1 100%;
+  }
+
+  .ai__buttons {
+    display: none;
+  }
+
+  .ai__buttons-mobile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+    margin-top: -12vw;
+  }
+
+  .ai__buttons-mobile .ai__btn {
+    width: 100%;
+    height: auto;
+  }
+
+  .ai__buttons-mobile .ai__btn p {
+    position: absolute;
+    font-size: 14px;
+  }
+
+  .ai__buttons-mobile .ai__btn img {
+    position: static;
+  }
+
+  .ai__subtitle {
+    font-size: 16px;
+  }
+
+  .ai__yellow {
+    font-size: 12px;
+  }
+
+  .ai__yellow-big {
+    font-size: 36px;
+  }
+
+  .clients {
+    padding: 32px 10px 49px;
+  }
+
+  .subheader__text {
+    font-size: 14px;
+  }
+
+  .subheader__block {
+    font-size: 18px;
+  }
+
+  .bots {
+    padding: 32px 10px 42px;
+  }
+
+  .grid {
+    margin-top: 33px;
+  }
+
+  .grid-2,
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid__yellow-block__text,
+  .grid__subtext {
+    font-size: 12px;
+    margin-top: 4px;
+  }
+
+  .grid__yellow-block__text {
+    margin-left: 5px;
+  }
+
+  .nis .subtext-1 {
+    margin: 7px 0 0 10px;
+  }
+
+  .nis .subtext-2 {
+    margin: 51px 0 0 17px;
+  }
+
+  .statistics {
+    padding: 32px 23px;
+  }
+
+  .statistics__block {
+    flex-direction: column;
+    margin-bottom: 38px;
+  }
+
+  .statistics__block img {
+    width: 90%;
+    margin: 0;
+    margin-bottom: 88px;
+  }
+
+  .statistics__grey {
+    font-size: 200px;
+    line-height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -20px;
+  }
+
+  .statistics__text {
+    font-size: 25px;
+  }
+
+  .statistics__subtext {
+    margin: 0;
+    font-size: 25px;
+  }
+
+  .statistics__subtext__grey {
+    font-size: 100px;
+    line-height: 100%;
+    margin: 0;
+  }
+
+  .chat-bots {
+    padding: 32px 10px 42px;
+  }
+
+  .chat-bots__cards {
+    grid-template-columns: 1fr;
+  }
+
+  .chat-bots__card {
+    padding: 8px;
+  }
+
+  .ai__btn {
+    width: 150px;
+    height: 34px;
+  }
+
+  .ai__btn-green {
+    font-size: 14px;
+  }
+
+  .chat-bots__card__title {
+    margin: 12px 0 8px;
+    font-size: 18px;
+  }
+
+  .chat-bots__card__text {
+    font-size: 13px;
+    margin-bottom: 29px;
+  }
+
+  .chat-bots__card__social-cards {
+    gap: 8px;
+  }
+
+  .abilities {
+    padding: 32px 10px 42px;
+    flex-direction: column;
+  }
+
+  .abilities__content {
+    margin: 0;
+  }
+
+  .abilities__cards {
+    margin-top: 28px;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .abilities__card {
+    padding: 8px 11px 21px;
+  }
+
+  .abilities__card__title {
+    margin-bottom: 14px;
+    font-size: 15px;
+  }
+
+  .abilities__card__text {
+    font-size: 14px;
+  }
+
+  .abilities__card__text {
+    gap: 14px;
+  }
+
+  .abilities__phone {
+    width: 100%;
+    margin-top: 19px;
+  }
+
+  .auto {
+    padding: 32px 10px 42px;
+  }
+
+  .auto__cards {
+    margin-top: 28px;
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .auto__card img {
+    width: 64px;
+  }
+
+  .auto__card {
+    padding: 61px 8px 20px 8px;
+    min-height: 227px;
+  }
+
+  .auto__title {
+    font-size: 15px;
+    margin-bottom: 12px;
+  }
+
+  .auto__text {
+    font-size: 12px;
+  }
+
+  .audit {
+    padding: 32px 10px 42px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .table {
+    padding: 29px 10px 43px;
+    flex-direction: column;
+  }
+
+  .table__left {
+    width: 100%;
+    padding: 100px 18px 0 10px;
+  }
+
+  .table__right__card {
+    flex-direction: column;
+    padding: 17px 6px;
+    font-size: 14px;
+  }
+
+  .table__right__card__img {
+    margin: 0 0 8px 0 !important;
+  }
+
+  .google,
+  .resume,
+  .notion {
+    padding: 32px 10px 42px;
+  }
+
+  .google__grid,
+  .resume__grid,
+  .notion__grid {
+    margin-top: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .google__grid__img,
+  .notion__grid__img,
+  .resume__grid__img {
+    margin: 0;
+    border: 1px solid #dcdcdc;
+    border-radius: 0;
+  }
+
+  .google__card,
+  .notion__card,
+  .resume__card {
+    padding: 25px;
+    min-height: 340px;
+  }
+
+  .google__card__header .header__img,
+  .notion__card__header .header__img,
+  .resume__card__header .header__img {
+    margin-right: 9px;
+  }
+
+  .google__card__header,
+  .notion__card__header,
+  .resume__card__header {
+    font-size: 15px;
+  }
+
+  .google__card__text,
+  .notion__card__text,
+  .resume__card__text {
+    gap: 6px;
+    font-size: 14px !important;
+  }
+
+  .tariffs {
+    padding: 22px 10px 42px;
+  }
+
+  .tariffs__table {
+    display: none;
+  }
+
+  .reviews {
+    padding: 32px 0 32px 10px;
+    font-size: 32px;
+  }
+
+  .reviews__title {
+    font-size: 18px;
+    margin-bottom: 9px;
+  }
+
+  .reviews__holder {
+    margin-top: 14px;
+  }
+
+  .review {
+    height: 273px;
+    flex: 0 0 182px;
+  }
+
+  .review__text {
+    left: 13px;
+    top: 14px;
+  }
+
+  .review__play img {
+    width: 40%;
+  }
+
+  .tariffs__table-mobile {
+    display: block;
+    padding: 0;
+  }
+
+  .tariffs__table .subheader {
+    position: static;
+    margin-bottom: 20px;
+  }
+
+  .table__title {
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 4px;
+  }
+
+  .table__text {
+    font-size: 12px;
+    display: grid;
+    gap: 8px;
+  }
+
+  .tariffs__table-mobile .subheader__block {
+    font-size: 18px;
+    margin-bottom: 18px;
+    padding: 0;
+  }
+
+  .table__subtitle {
+    font-size: 24px;
+  }
+
+  .table__subtext {
+    font-size: 12px;
+  }
+
+  .table-mobile__cost {
+    margin-bottom: 30px;
+  }
+
+  .mb-10 {
+    margin-bottom: 10px;
+  }
+
+  .mb-38 {
+    margin-bottom: 38px;
+  }
+
+  .table-mobile-padding {
+    padding: 10px 10px 0 10px;
+  }
+
+  .table-mobile-yellow {
+    padding: 12px 10px;
+    background: #fee440;
+  }
+
+  .table-mobile-padding-l {
+    padding: 38px 13px 30px 10px;
+  }
 }
